@@ -12,7 +12,7 @@ author-twitter:
 about-author:   나눈야 찌나, 머저리
 
 # Social settings
-social-toss:    toss.me/aoe1s
+social-twitter:   
 social-facebook:
 social-github:    a-oe1s0.github.io
 social-pinterest: 
@@ -26,6 +26,15 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate
 
 paginate: 7
 paginate_path: "/page/:num/"
